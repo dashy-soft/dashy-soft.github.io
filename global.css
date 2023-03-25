@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'Brandon';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_bld-webfont.10b50ee4aa9930dd26ae117a07e922eb.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_bld-webfont.10b50ee4aa9930dd26ae117a07e922eb.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_bld-webfont.2bf5f4d8928806f7c91c290b5814aff9.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_bld-webfont.70c7d99488f7e8cf27634e9c58bf6217.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_bld-webfont.44a3e64aa120d1b7964f10be29ad878b.svg#BrandonGrotesqueBoldRegular) format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_reg-webfont.662dee687e0069f714f79db9bde55f81.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_reg-webfont.662dee687e0069f714f79db9bde55f81.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_reg-webfont.64088d528192c8fce171860f56a14a9f.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_reg-webfont.04206b825348a69ee85b523c1e67a70f.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_reg-webfont.348bd0ea620c7861d0c3ac028ba911ed.svg#BrandonGrotesqueRegularRg) format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_light-webfont.d23193b7e25a59254d67a04a9f6d4eaa.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_light-webfont.d23193b7e25a59254d67a04a9f6d4eaa.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_light-webfont.90829ddb7531a53c1dcd670d545999d2.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_light-webfont.2c18926b679dfb8abff6fc13c2b8beeb.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_light-webfont.518c0c41a5141b2e59732f43d9b70575.svg#BrandonGrotesqueLight) format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_med-webfont.78c65e04664b2559e1ca630e2606c3b5.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_med-webfont.78c65e04664b2559e1ca630e2606c3b5.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_med-webfont.43b22b68b4b50438a8c9d5ed49507204.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_med-webfont.b2cf0cf708268a04055c5d8545d811a4.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/brandon_med-webfont.785c578a01a0d60f61ad665fe481306d.svg#BrandonGrotesqueMedium) format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Bold-webfont.1d9c7945c7bc7dd0909105119bfbc191.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Bold-webfont.1d9c7945c7bc7dd0909105119bfbc191.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Bold-webfont.2e90d5152ce92858b62ba053c7b9d2cb.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Bold-webfont.76cc6be5d8a231dc012fef4bdb86f79c.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Bold-webfont.93349923b5274a36ac93cb3168d09123.svg#open_sansbold) format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-BoldItalic-webfont.6218c213bb8cf22b25710da6f3a90e48.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-BoldItalic-webfont.6218c213bb8cf22b25710da6f3a90e48.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-BoldItalic-webfont.7657144ec477cd61ac4a5d1af3fa2d28.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-BoldItalic-webfont.b6690626036a7d6824632769305b1978.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-BoldItalic-webfont.2b4eeeaef53b3496a5cdf82803666ed7.svg#open_sansbold_italic) format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Italic-webfont.43d5342998f3607bd61a8239e98b1160.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Italic-webfont.43d5342998f3607bd61a8239e98b1160.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Italic-webfont.f42641eed834f7b97a9499362c6c8855.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Italic-webfont.de7ef31e6295902347c5c3643b2d82da.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Italic-webfont.5b774c25787e0a52c013463c9e3c4219.svg#open_sansitalic) format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Light-webfont.09e00aa7622ece30a0f1e06b55f66c2a.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Light-webfont.09e00aa7622ece30a0f1e06b55f66c2a.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Light-webfont.45b47f3e9c7d74b80f5c6e0a3c513b23.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Light-webfont.2e98fc3ce85f31f63010b706259cb604.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Light-webfont.8f04ed9aeb2185499068d84842b95aa1.svg#open_sanslight) format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-LightItalic-webfont.550b5fda4a27cfedb7131b1a6e85e748.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-LightItalic-webfont.550b5fda4a27cfedb7131b1a6e85e748.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-LightItalic-webfont.b553da506077488bc65289e10841d527.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-LightItalic-webfont.1d22953c479914c2f801e08de666b0e8.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-LightItalic-webfont.fd6dd5fa10c5a74f0a767eeb695342f1.svg#open_sanslight_italic) format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Regular-webfont.c4d82460ef260eb1589e73528cbfb257.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Regular-webfont.c4d82460ef260eb1589e73528cbfb257.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Regular-webfont.79515ad0788973c533405f7012dfeccd.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Regular-webfont.488d5cc145299ba07b75495100419ee6.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Regular-webfont.8185eb3059c46e4169ce107dfcf85950.svg#open_sansregular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Semibold-webfont.f28eb362fb6afe946d822ee5451c2146.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Semibold-webfont.f28eb362fb6afe946d822ee5451c2146.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Semibold-webfont.697574b47bcfdd2c45e3e63c7380dd67.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Semibold-webfont.b32acea6fd3c228b5059042c7ad21c55.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-Semibold-webfont.3f6b1eed8a0832d6f316fc26526348a8.svg#open_sanssemibold) format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sans';
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-SemiboldItalic-webfont.70bafcaaadad9e17b9c7784abbc6b1c2.eot);
+  src: url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-SemiboldItalic-webfont.70bafcaaadad9e17b9c7784abbc6b1c2.eot?#iefix) format('embedded-opentype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-SemiboldItalic-webfont.719f7321a8366f4ee609737026432113.woff) format('woff'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-SemiboldItalic-webfont.64f886b232962979e2eaf29d93108286.ttf) format('truetype'), url(https://static-assets.strikinglycdn.com/webpack/fonts/OpenSans-SemiboldItalic-webfont.70eb93d7ba2ad241180085a9a74b0b95.svg#open_sanssemibold_italic) format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100vw;
+  font-family: "alata", sans-serif;
+}
+html, body {
+  margin: 0;
+  font-family: alata, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+header nav {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 20px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header nav .links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu-close {
+  display: none;
+  height: 40px;
+  width: 40px;
+}
+.menu-close > span {
+  padding-left: calc(100% - 40px);
+}
+.menu-close > span > span {
+  position: relative;
+}
+.menu-close > span > span > span {
+  border-bottom: 1px solid black;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  display: block;
+  margin-top: 10px;
+}
+.menu-close .bar1 {
+  transform: rotate(45deg);
+}
+.menu-close .bar2 {
+  transform: rotate(-45deg);
+  left: -22px;
+}
+.burger-icon {
+  padding-right: 20px;
+  padding-top: 20px;
+  display: none;
+}
+.burger-icon > span {
+  border-bottom: 1px solid black;
+  width: 32px;
+  height: 0;
+  display: block;
+  margin-top: 10px;
+}
+@media screen and (max-width: 980px) {
+  .title-link > span {
+    display: none;
+  }
+  section.product .card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .burger-icon {
+    display: inline-block;
+  }
+  header nav .links, .menu-close {
+    display: block;
+  }
+  header nav .links > a {
+    display: block;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc(100% - 30px);
+  }
+  .menu-close {
+    width: 100%;
+  }
+  #menu {
+    position: fixed;
+    right: -100%;
+    height: 100%;
+    align-items: flex-start;
+    transition: right 0.2s linear;
+    background: whitesmoke;
+  }
+  #menu:target {
+    right: 0;
+  }
+}
+header .button {
+  padding: 12px 20px;
+  background: #7957d5;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+h1, h2, h3, h4, .subtitle {
+  font-family: spartan, sans-serif;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-weight: 400;
+}
+.subtitle {
+  margin-bottom: 30px;
+  display: block;
+  font-size: 18px;
+  line-height: 26px;
+}
+.card-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section {font-family: alata, sans-serif;}
+section {
+  padding-top: 95px;
+  padding-bottom: 75px;
+}
+.centered {
+  text-align: center;
+}
+.bold {
+  font-weight: 700;
+}
+.light {
+  font-weight: 400;
+}
+/* Specific to sections */
+.title-link {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.title-link span {
+  color: #ccc;
+  font-size: 60%;
+}
+section.product {
+  margin-top: 50px;
+}
+header h1 {
+  flex-grow: 1;
+  display: inline-block;
+}
+section.product {
+  margin-top: 90px;
+}
+section.product .card {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+section.product .card > div {
+  margin-left: 12.5px;
+}
+section.product img {
+  margin-left: 25px;
+  max-width: 80vw;
+}
+section.product h2, section.product .subtitle {
+  text-align: center;
+}
+section.use-cases {
+  background: #e8eaec;
+}
+section.use-cases .card {
+  padding: 16px 18px;
+  width: 335px;
+  text-align: left;
+  border: 2px solid rgba(0,0,0,.1);
+}
+section.features .card {
+  max-width: 270px;
+}
+section.features .card h3, section.features .card .subtitle {
+  color: #7957d5;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+section.features .card p {
+  margin: 0;
+}
+section.features img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 20px;
+}
+section.evolution {
+  background: #7957d5;
+  color: white;
+  font-family: spartan, sans-serif;
+}
+section.evolution .container {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  line-height: 1.45;
+  font-size: 18px;
+}
+section.evolution h2 {
+  margin: 0;
+}
+section.contact {
+  background: #e8eaec;
+}
+section.contact h2, section.contact .subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+footer {
+  background: #1c1c1c;
+  color: white;
+  font-family: alata, sans-serif;
+}
+footer nav {
+  padding:  60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer .card {
+  min-width: 260px;
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+footer h3 {
+  margin: 0;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+footer a {
+  color: #7957d5;
+  text-decoration: none;
+}
+/* Lightbox */
+.lightbox-item {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  background: #00000080;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.lightbox-item:target, .lightbox-item .close {
+  pointer-events: unset;
+  opacity: 1;
+}
+.lightbox-item img {
+  margin: auto!important;
+}
